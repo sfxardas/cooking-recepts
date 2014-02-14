@@ -13,25 +13,30 @@ public class Recept {
     private final String name;
     private final String description;
     private final String preparation;
-    private final ArrayList<String> ingredient;
+    private final ArrayList<String> ingredients;
     private final int timeInMin;
 
 
-    public Recept(int id, String name, String description, String preparation, List<String> ingredient, int timeInMin) {
+    public Recept(int id, String name, String description, String preparation, List<String> ingredients, int timeInMin) {
         this.id = id;
         this.name = name;
         this.description = description;
         this.preparation = preparation;
-        this.ingredient = new ArrayList<String>(ingredient);
+        this.ingredients = new ArrayList<String>(ingredients);
         this.timeInMin = timeInMin;
+    }
+
+    public void addIngredient(String ingredient)
+    {
+        ingredients.add(ingredient);
     }
 
     public int getTimeInMin() {
         return timeInMin;
     }
 
-    public List<String> getIngredient() {
-        return Collections.unmodifiableList(ingredient);
+    public List<String> getIngredients() {
+        return Collections.unmodifiableList(ingredients);
     }
 
     public String getPreparation() {
