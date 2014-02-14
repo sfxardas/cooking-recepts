@@ -1,5 +1,6 @@
 package org.xardas.recepts;
 
+import javax.xml.bind.annotation.*;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -7,15 +8,20 @@ import java.util.List;
 /**
  * Created by Sebastian on 04.02.14.
  */
+@XmlType
 public class Recept {
 
-    private final int id;
-    private final String name;
-    private final String description;
-    private final String preparation;
-    private final ArrayList<String> ingredients;
-    private final int timeInMin;
+    private int id;
+    private String name;
+    private String description;
+    private String preparation;
+    private List<String> ingredients;
+    private int timeInMin;
 
+    public Recept()
+    {
+
+    }
 
     public Recept(int id, String name, String description, String preparation, List<String> ingredients, int timeInMin) {
         this.id = id;
@@ -35,8 +41,10 @@ public class Recept {
         return timeInMin;
     }
 
+    @XmlElement ( name="ingredient")
+    @XmlElementWrapper( name="ingredients" )
     public List<String> getIngredients() {
-        return Collections.unmodifiableList(ingredients);
+        return ingredients;
     }
 
     public String getPreparation() {
@@ -53,5 +61,25 @@ public class Recept {
 
     public int getId() {
         return id;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public void setPreparation(String preparation) {
+        this.preparation = preparation;
+    }
+
+    public void setIngredients(List<String> ingredients) {
+        this.ingredients = ingredients;
+    }
+
+    public void setTimeInMin(int timeInMin) {
+        this.timeInMin = timeInMin;
     }
 }
