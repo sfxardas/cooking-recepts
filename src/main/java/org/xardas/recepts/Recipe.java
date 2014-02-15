@@ -2,40 +2,64 @@ package org.xardas.recepts;
 
 import javax.xml.bind.annotation.*;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 /**
  * Created by Sebastian on 04.02.14.
  */
 @XmlType
-public class Recept {
+public class Recipe {
 
-    private int id;
     private String name;
     private String description;
     private String preparation;
-    private List<String> ingredients;
+    private List<Ingredient> ingredients;
     private int timeInMin;
+    private List<Tag> tags;
 
-    public Recept()
+    public Recipe()
     {
 
     }
 
-    public Recept(int id, String name, String description, String preparation, List<String> ingredients, int timeInMin) {
-        this.id = id;
+    public Recipe(int id, String name, String description, String preparation, List<Ingredient> ingredients, int timeInMin) {
         this.name = name;
         this.description = description;
         this.preparation = preparation;
-        this.ingredients = new ArrayList<String>(ingredients);
+        this.ingredients = new ArrayList<Ingredient>(ingredients);
         this.timeInMin = timeInMin;
+        tags = new ArrayList<Tag>();
     }
 
-    public void addIngredient(String ingredient)
+    public void addIngredient(Ingredient ingredient)
     {
         ingredients.add(ingredient);
     }
+
+    public void addTag(Tag tag)
+    {
+        tags.add(tag);
+    }
+
+    public void removeIngredient(String ingredient)
+    {
+        if(!ingredients.remove(ingredient))
+        {
+            throw new IllegalArgumentException("Ingredient Not Found");
+        }
+    }
+
+    public void removeTag(Tag tag)
+    {
+        if(!tags.remove(tag))
+        {
+            throw new IllegalArgumentException("Tag Not Found");
+        }
+    }
+
+
+
+    //getter and setter
 
     public int getTimeInMin() {
         return timeInMin;
@@ -43,7 +67,7 @@ public class Recept {
 
     @XmlElement ( name="ingredient")
     @XmlElementWrapper( name="ingredients" )
-    public List<String> getIngredients() {
+    public List<Ingredient> getIngredients() {
         return ingredients;
     }
 
@@ -59,8 +83,10 @@ public class Recept {
         return name;
     }
 
-    public int getId() {
-        return id;
+    @XmlElement ( name="tag")
+    @XmlElementWrapper( name="tags" )
+    public List<Tag> getTags() {
+        return tags;
     }
 
     public void setName(String name) {
@@ -75,11 +101,15 @@ public class Recept {
         this.preparation = preparation;
     }
 
-    public void setIngredients(List<String> ingredients) {
+    public void setIngredients(List<Ingredient> ingredients) {
         this.ingredients = ingredients;
     }
 
     public void setTimeInMin(int timeInMin) {
         this.timeInMin = timeInMin;
+    }
+
+    public void setTags(List<Tag> tags) {
+        this.tags = tags;
     }
 }

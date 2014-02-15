@@ -1,33 +1,32 @@
 package org.xardas.db;
 
-import org.xardas.recepts.Recept;
+import org.xardas.recepts.Recipe;
 
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 /**
  * Created by Sebastian on 04.02.14.
  */
 
-@XmlRootElement( namespace = "http://cooking.recepts/" )
+@XmlRootElement( namespace = "http://cooking.recipes/" )
 public class DataStorage {
 
-    private final List<Recept> recepts = new ArrayList<Recept>();
+    private final List<Recipe> recipes = new ArrayList<Recipe>();
 
 
-    public void addRecept(Recept recept)
+    public void addRecipe(Recipe recipe)
     {
-        recepts.add(recept);
+        recipes.add(recipe);
     }
 
-    public void deleteRecept(Recept recept)
+    public void deleteRecipe(Recipe recipe)
     {
-        if(recepts.remove(recept))
+        if(!recipes.remove(recipe))
         {
-            throw new IllegalArgumentException("Recept Not Found");
+            throw new IllegalArgumentException("Recipe Not Found");
         }
     }
 
@@ -35,8 +34,8 @@ public class DataStorage {
 
     }
 
-    @XmlElement( name = "recept" )
-    public List<Recept> getRecepts() {
-        return recepts;
+    @XmlElement( name = "recipe" )
+    public List<Recipe> getRecipes() {
+        return recipes;
     }
 }

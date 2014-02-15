@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:dataStorage xmlns:ns2="http://cooking.recipes/">
+    <recipe>
+        <description>mh lecker</description>
+        <ingredients>
+            <ingredient>
+                <amount>2.0</amount>
+                <name>paprika</name>
+                <unit>stk</unit>
+            </ingredient>
+            <ingredient>
+                <amount>200.0</amount>
+                <name>käse</name>
+                <unit>gr</unit>
+            </ingredient>
+        </ingredients>
+        <name>paprikaauflauf</name>
+        <preparation>paprika in ofen</preparation>
+        <tags>
+            <tag>auflauf</tag>
+            <tag>vegetarisch</tag>
+        </tags>
+        <timeInMin>20</timeInMin>
+    </recipe>
+    <recipe>
+        <description>mh lecker</description>
+        <ingredients>
+            <ingredient>
+                <amount>300.0</amount>
+                <name>Nachos</name>
+                <unit>gr</unit>
+            </ingredient>
+            <ingredient>
+                <amount>200.0</amount>
+                <name>käse</name>
+                <unit>gr</unit>
+            </ingredient>
+            <ingredient>
+                <amount>1.0</amount>
+                <name>Salat</name>
+                <unit>stk</unit>
+            </ingredient>
+        </ingredients>
+        <name>Nachosalat</name>
+        <preparation>alles in ne schüssel</preparation>
+        <tags/>
+        <timeInMin>40</timeInMin>
+    </recipe>
+</ns2:dataStorage>
