@@ -11,7 +11,7 @@ import java.util.List;
  * Created by Sebastian on 04.02.14.
  */
 
-@XmlRootElement( namespace = "http://cooking.recipes/" )
+@XmlRootElement
 public class DataStorage {
 
     private final List<Recipe> recipes = new ArrayList<Recipe>();

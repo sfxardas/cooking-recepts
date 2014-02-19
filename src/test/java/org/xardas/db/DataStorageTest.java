@@ -17,6 +17,7 @@ import java.util.List;
  */
 public class DataStorageTest {
     DataStorage storage;
+    private Recipe recipe;
 
     @org.junit.Before
     public void setUp() throws Exception {
@@ -27,7 +28,7 @@ public class DataStorageTest {
         ingredients.add(new Ingredient(2,"paprika","stk"));
         ingredients.add(new Ingredient(200,"käse","gr"));
 
-        Recipe recipe = new Recipe(1,"paprikaauflauf","mh lecker","paprika in ofen", ingredients, 20, 0);
+         recipe = new Recipe(1,"paprikaauflauf","mh lecker","paprika in ofen", ingredients, 20, 0);
 
         recipe.addTag(Tag.auflauf);
         recipe.addTag(Tag.vegetarisch);
