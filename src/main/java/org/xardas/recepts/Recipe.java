@@ -10,22 +10,26 @@ import java.util.List;
 @XmlType
 public class Recipe {
 
+    private int id;
     private String name;
     private String description;
     private String preparation;
     private List<Ingredient> ingredients;
     private int timeInMin;
     private List<Tag> tags;
+    private long lastChanged;
 
     public Recipe()
     {
 
     }
 
-    public Recipe(int id, String name, String description, String preparation, List<Ingredient> ingredients, int timeInMin) {
+    public Recipe(int id, String name, String description, String preparation, List<Ingredient> ingredients, int timeInMin, long lastChanged) {
+        this.id = id;
         this.name = name;
         this.description = description;
         this.preparation = preparation;
+        this.lastChanged = lastChanged;
         this.ingredients = new ArrayList<Ingredient>(ingredients);
         this.timeInMin = timeInMin;
         tags = new ArrayList<Tag>();
@@ -111,5 +115,21 @@ public class Recipe {
 
     public void setTags(List<Tag> tags) {
         this.tags = tags;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public long getLastChanged() {
+        return lastChanged;
+    }
+
+    public void setLastChanged(long lastChanged) {
+        this.lastChanged = lastChanged;
     }
 }

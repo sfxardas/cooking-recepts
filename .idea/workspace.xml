@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad7bb03c-20eb-4110-b1e5-878d95abd639" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/xardas/db/DBConnection.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/xardas/db/DBConnectionTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_29.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cooking-recepts.iml" afterPath="$PROJECT_DIR$/cooking-recepts.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/xardas/db/DataStorageTest.java" afterPath="$PROJECT_DIR$/src/main/java/org/xardas/db/DataStorageTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/xardas/recepts/Recipe.java" afterPath="$PROJECT_DIR$/src/main/java/org/xardas/recepts/Recipe.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cooking-recepts.iws" />
@@ -83,12 +80,8 @@
       <file leaf-file-name="DataStorageTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/xardas/db/DataStorageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1802">
-              <folding>
-                <element signature="e#536#548#0" expanded="true" />
-                <element signature="e#1707#1719#0" expanded="true" />
-                <element signature="e#2296#2308#0" expanded="true" />
-              </folding>
+            <state line="17" column="0" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1955">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -96,26 +89,44 @@
       <file leaf-file-name="storage.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/storage.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="13" selection-start="114" selection-end="758" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935">
+            <state line="23" column="13" selection-start="114" selection-end="758" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="935">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Recipe.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Recipe.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/xardas/recepts/Recipe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1615">
-              <folding />
+            <state line="21" column="39" selection-start="450" selection-end="450" vertical-scroll-proportion="-0.6822742" vertical-offset="731" max-vertical-offset="1887">
+              <folding>
+                <element signature="e#2737#2738#0" expanded="true" />
+                <element signature="e#2771#2772#0" expanded="true" />
+                <element signature="e#2823#2824#0" expanded="true" />
+                <element signature="e#2869#2870#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ingredient.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Ingredient.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/xardas/recepts/Ingredient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="117" selection-end="117" vertical-scroll-proportion="0.22118959" vertical-offset="0" max-vertical-offset="714">
-              <folding />
+            <state line="7" column="0" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0" vertical-offset="80" max-vertical-offset="714">
+              <folding>
+                <element signature="e#449#450#0" expanded="false" />
+                <element signature="e#478#479#0" expanded="false" />
+                <element signature="e#522#523#0" expanded="false" />
+                <element signature="e#558#559#0" expanded="false" />
+                <element signature="e#589#590#0" expanded="false" />
+                <element signature="e#616#617#0" expanded="false" />
+                <element signature="e#656#657#0" expanded="false" />
+                <element signature="e#688#689#0" expanded="false" />
+                <element signature="e#719#720#0" expanded="false" />
+                <element signature="e#746#747#0" expanded="false" />
+                <element signature="e#786#787#0" expanded="false" />
+                <element signature="e#818#819#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -132,7 +143,7 @@
       <file leaf-file-name="DataStorage.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/xardas/db/DataStorage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="5" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+            <state line="20" column="5" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="799">
               <folding />
             </state>
           </provider>
@@ -150,7 +161,7 @@
       <file leaf-file-name="DBConnectionTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/org/xardas/db/DBConnectionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="1" selection-start="1448" selection-end="1448" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1173">
+            <state line="15" column="38" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -161,11 +172,8 @@
       <file leaf-file-name="InitialContext.java" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.7.0/src.zip!/javax/naming/InitialContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="190" column="11" selection-start="7236" selection-end="7236" vertical-scroll-proportion="0.0" vertical-offset="7638" max-vertical-offset="9180">
-              <folding>
-                <element signature="e#0#20205#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-              </folding>
+            <state line="190" column="11" selection-start="7236" selection-end="7236" vertical-scroll-proportion="0.0" vertical-offset="3230" max-vertical-offset="9605">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -192,10 +200,10 @@
         <option value="$PROJECT_DIR$/src/main/java/org/xardas/recepts/Tag.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/xardas/recepts/Ingredient.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/xardas/db/DataStorage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/xardas/recepts/Recipe.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/xardas/db/DataStorageTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/org/xardas/db/DBConnectionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/xardas/recepts/Recipe.java" />
       </list>
     </option>
   </component>
@@ -217,10 +225,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="475" />
-    <option name="y" value="14" />
-    <option name="width" value="1443" />
-    <option name="height" value="1000" />
+    <option name="x" value="-4" />
+    <option name="y" value="-4" />
+    <option name="width" value="1279" />
+    <option name="height" value="776" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -312,6 +320,32 @@
               <option name="myItemId" value="xardas" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="recepts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cooking-recepts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cooking-recepts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xardas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -364,40 +398,8 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cooking-recepts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cooking-recepts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cooking-recepts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cooking-recepts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -405,7 +407,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="xardas" />
+              <option name="myItemId" value="db" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -641,19 +643,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -679,6 +668,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -793,8 +795,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="475" y="14" width="1443" height="1000" extended-state="0" />
-    <editor active="true" />
+    <frame x="-4" y="-4" width="1279" height="776" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295063" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -812,13 +814,13 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16823104" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26064983" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3283582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26037428" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32674772" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287879" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -846,6 +848,75 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/xardas/recepts/Recipe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="2227">
+          <folding>
+            <element signature="e#2737#2738#0" expanded="true" />
+            <element signature="e#2771#2772#0" expanded="true" />
+            <element signature="e#2823#2824#0" expanded="true" />
+            <element signature="e#2869#2870#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/xardas/recepts/Ingredient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="714">
+          <folding>
+            <element signature="e#449#450#0" expanded="false" />
+            <element signature="e#478#479#0" expanded="false" />
+            <element signature="e#522#523#0" expanded="false" />
+            <element signature="e#558#559#0" expanded="false" />
+            <element signature="e#589#590#0" expanded="false" />
+            <element signature="e#616#617#0" expanded="false" />
+            <element signature="e#656#657#0" expanded="false" />
+            <element signature="e#688#689#0" expanded="false" />
+            <element signature="e#719#720#0" expanded="false" />
+            <element signature="e#746#747#0" expanded="false" />
+            <element signature="e#786#787#0" expanded="false" />
+            <element signature="e#818#819#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/xardas/recepts/Tag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="8" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/xardas/db/DataStorage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="5" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="799">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/xardas/db/DBConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="18" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/xardas/db/DBConnectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="1" selection-start="1448" selection-end="1448" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1173">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0/src.zip!/javax/naming/InitialContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="190" column="11" selection-start="7236" selection-end="7236" vertical-scroll-proportion="0.0" vertical-offset="3230" max-vertical-offset="9605">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="42" selection-start="811" selection-end="811" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
@@ -856,11 +927,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/org/xardas/db/DataStorageTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="24" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1802">
-          <folding>
-            <element signature="e#536#548#0" expanded="true" />
-            <element signature="e#1707#1719#0" expanded="true" />
-            <element signature="e#2296#2308#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -874,14 +941,32 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/org/xardas/recepts/Recipe.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="4" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="2057">
-          <folding />
+          <folding>
+            <element signature="e#2737#2738#0" expanded="true" />
+            <element signature="e#2771#2772#0" expanded="true" />
+            <element signature="e#2823#2824#0" expanded="true" />
+            <element signature="e#2869#2870#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/xardas/recepts/Ingredient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="24" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="918">
-          <folding />
+          <folding>
+            <element signature="e#449#450#0" expanded="false" />
+            <element signature="e#478#479#0" expanded="false" />
+            <element signature="e#522#523#0" expanded="false" />
+            <element signature="e#558#559#0" expanded="false" />
+            <element signature="e#589#590#0" expanded="false" />
+            <element signature="e#616#617#0" expanded="false" />
+            <element signature="e#656#657#0" expanded="false" />
+            <element signature="e#688#689#0" expanded="false" />
+            <element signature="e#719#720#0" expanded="false" />
+            <element signature="e#746#747#0" expanded="false" />
+            <element signature="e#786#787#0" expanded="false" />
+            <element signature="e#818#819#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -909,11 +994,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/org/xardas/db/DataStorageTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="108" column="1" selection-start="2877" selection-end="2877" vertical-scroll-proportion="0.0" vertical-offset="1802" max-vertical-offset="1802">
-          <folding>
-            <element signature="e#536#548#0" expanded="true" />
-            <element signature="e#1707#1719#0" expanded="true" />
-            <element signature="e#2296#2308#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -927,14 +1008,32 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/org/xardas/recepts/Recipe.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="4" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="2057">
-          <folding />
+          <folding>
+            <element signature="e#2737#2738#0" expanded="true" />
+            <element signature="e#2771#2772#0" expanded="true" />
+            <element signature="e#2823#2824#0" expanded="true" />
+            <element signature="e#2869#2870#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/xardas/recepts/Ingredient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="24" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="918">
-          <folding />
+          <folding>
+            <element signature="e#449#450#0" expanded="false" />
+            <element signature="e#478#479#0" expanded="false" />
+            <element signature="e#522#523#0" expanded="false" />
+            <element signature="e#558#559#0" expanded="false" />
+            <element signature="e#589#590#0" expanded="false" />
+            <element signature="e#616#617#0" expanded="false" />
+            <element signature="e#656#657#0" expanded="false" />
+            <element signature="e#688#689#0" expanded="false" />
+            <element signature="e#719#720#0" expanded="false" />
+            <element signature="e#746#747#0" expanded="false" />
+            <element signature="e#786#787#0" expanded="false" />
+            <element signature="e#818#819#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -962,18 +1061,19 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/org/xardas/db/DataStorageTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="115" selection-start="801" selection-end="801" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1054">
-          <folding>
-            <element signature="e#536#548#0" expanded="true" />
-            <element signature="e#1707#1719#0" expanded="true" />
-            <element signature="e#2296#2308#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/xardas/recepts/Recipe.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="78" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1326">
-          <folding />
+          <folding>
+            <element signature="e#2737#2738#0" expanded="true" />
+            <element signature="e#2771#2772#0" expanded="true" />
+            <element signature="e#2823#2824#0" expanded="true" />
+            <element signature="e#2869#2870#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1001,7 +1101,12 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/org/xardas/recepts/Recipe.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="5" selection-start="750" selection-end="750" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="1071">
-          <folding />
+          <folding>
+            <element signature="e#2737#2738#0" expanded="true" />
+            <element signature="e#2771#2772#0" expanded="true" />
+            <element signature="e#2823#2824#0" expanded="true" />
+            <element signature="e#2869#2870#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1022,7 +1127,12 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/org/xardas/recepts/Recipe.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="55" selection-start="1027" selection-end="1027" vertical-scroll-proportion="0.0" vertical-offset="352" max-vertical-offset="986">
-          <folding />
+          <folding>
+            <element signature="e#2737#2738#0" expanded="true" />
+            <element signature="e#2771#2772#0" expanded="true" />
+            <element signature="e#2823#2824#0" expanded="true" />
+            <element signature="e#2869#2870#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1043,7 +1153,12 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/org/xardas/recepts/Recipe.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="72" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
-          <folding />
+          <folding>
+            <element signature="e#2737#2738#0" expanded="true" />
+            <element signature="e#2771#2772#0" expanded="true" />
+            <element signature="e#2823#2824#0" expanded="true" />
+            <element signature="e#2869#2870#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1064,7 +1179,12 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/org/xardas/recepts/Recipe.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="3" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="221">
-          <folding />
+          <folding>
+            <element signature="e#2737#2738#0" expanded="true" />
+            <element signature="e#2771#2772#0" expanded="true" />
+            <element signature="e#2823#2824#0" expanded="true" />
+            <element signature="e#2869#2870#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1085,7 +1205,12 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/org/xardas/recepts/Recipe.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="3" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="221">
-          <folding />
+          <folding>
+            <element signature="e#2737#2738#0" expanded="true" />
+            <element signature="e#2771#2772#0" expanded="true" />
+            <element signature="e#2823#2824#0" expanded="true" />
+            <element signature="e#2869#2870#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1104,17 +1229,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/org/xardas/db/DataStorageTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="0" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1802">
-          <folding>
-            <element signature="e#536#548#0" expanded="true" />
-            <element signature="e#1707#1719#0" expanded="true" />
-            <element signature="e#2296#2308#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/xardas/recepts/Recipe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1615">
           <folding />
         </state>
       </provider>
@@ -1136,10 +1250,7 @@
     <entry file="jar://C:/Program Files/Java/jdk1.7.0/src.zip!/javax/naming/InitialContext.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="190" column="11" selection-start="7236" selection-end="7236" vertical-scroll-proportion="0.0" vertical-offset="7638" max-vertical-offset="9180">
-          <folding>
-            <element signature="e#0#20205#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1147,6 +1258,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="21" selection-start="1372" selection-end="1372" vertical-scroll-proportion="0.0" vertical-offset="278" max-vertical-offset="935">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/xardas/recepts/Ingredient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0" vertical-offset="80" max-vertical-offset="714">
+          <folding>
+            <element signature="e#449#450#0" expanded="false" />
+            <element signature="e#478#479#0" expanded="false" />
+            <element signature="e#522#523#0" expanded="false" />
+            <element signature="e#558#559#0" expanded="false" />
+            <element signature="e#589#590#0" expanded="false" />
+            <element signature="e#616#617#0" expanded="false" />
+            <element signature="e#656#657#0" expanded="false" />
+            <element signature="e#688#689#0" expanded="false" />
+            <element signature="e#719#720#0" expanded="false" />
+            <element signature="e#746#747#0" expanded="false" />
+            <element signature="e#786#787#0" expanded="false" />
+            <element signature="e#818#819#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1159,17 +1290,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/org/xardas/db/DBConnectionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="1" selection-start="1448" selection-end="1448" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1173">
+        <state line="15" column="38" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/xardas/recepts/Ingredient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/xardas/recepts/Recipe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="117" selection-end="117" vertical-scroll-proportion="0.22118959" vertical-offset="0" max-vertical-offset="714">
-          <folding />
+        <state line="21" column="39" selection-start="450" selection-end="450" vertical-scroll-proportion="-0.6822742" vertical-offset="731" max-vertical-offset="1887">
+          <folding>
+            <element signature="e#2737#2738#0" expanded="true" />
+            <element signature="e#2771#2772#0" expanded="true" />
+            <element signature="e#2823#2824#0" expanded="true" />
+            <element signature="e#2869#2870#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

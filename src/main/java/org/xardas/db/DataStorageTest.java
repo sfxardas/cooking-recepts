@@ -27,7 +27,7 @@ public class DataStorageTest {
         ingredients.add(new Ingredient(2,"paprika","stk"));
         ingredients.add(new Ingredient(200,"käse","gr"));
 
-        Recipe recipe = new Recipe(1,"paprikaauflauf","mh lecker","paprika in ofen", ingredients, 20);
+        Recipe recipe = new Recipe(1,"paprikaauflauf","mh lecker","paprika in ofen", ingredients, 20, lastChanged);
 
         recipe.addTag(Tag.auflauf);
         recipe.addTag(Tag.vegetarisch);
@@ -40,7 +40,7 @@ public class DataStorageTest {
         ingredients.add(new Ingredient(200,"käse","gr"));
         ingredients.add(new Ingredient(1,"Salat","stk"));
 
-        recipe = new Recipe(2,"Nachosalat","mh lecker","alles in ne schüssel", ingredients, 40);
+        recipe = new Recipe(2,"Nachosalat","mh lecker","alles in ne schüssel", ingredients, 40, lastChanged);
 
         storage.addRecipe(recipe);
 
@@ -66,7 +66,7 @@ public class DataStorageTest {
         ingredients.add(new Ingredient(300,"asd","gr"));
         ingredients.add(new Ingredient(200,"käse","gr"));
 
-        Recipe recipe = new Recipe(2, "Nudeln", "mh lecker", "alles in ne schüssel", ingredients, 10);
+        Recipe recipe = new Recipe(2, "Nudeln", "mh lecker", "alles in ne schüssel", ingredients, 10, lastChanged);
 
         storage.addRecipe(recipe);
 
@@ -89,7 +89,7 @@ public class DataStorageTest {
         ingredients.add(new Ingredient(2,"paprika","stk"));
         ingredients.add(new Ingredient(200,"käse","gr"));
 
-        Recipe recipe = new Recipe(1,"paprikaauflauf","mh lecker","paprika in ofen", ingredients, 20);
+        Recipe recipe = new Recipe(1,"paprikaauflauf","mh lecker","paprika in ofen", ingredients, 20, lastChanged);
 
         recipe.addTag(Tag.auflauf);
         recipe.addTag(Tag.vegetarisch);
