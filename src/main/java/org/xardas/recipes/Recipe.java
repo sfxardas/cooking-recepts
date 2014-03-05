@@ -1,4 +1,4 @@
-package org.xardas.recepts;
+package org.xardas.recipes;
 
 import javax.xml.bind.annotation.*;
 import java.util.ArrayList;
@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * Created by Sebastian on 04.02.14.
  */
-@XmlType
+@XmlRootElement
 public class Recipe {
 
     private int id;

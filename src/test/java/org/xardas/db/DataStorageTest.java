@@ -3,9 +3,9 @@ package org.xardas.db;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.xardas.recepts.Ingredient;
-import org.xardas.recepts.Recipe;
-import org.xardas.recepts.Tag;
+import org.xardas.recipes.Ingredient;
+import org.xardas.recipes.Recipe;
+import org.xardas.recipes.Tag;
 
 import javax.xml.bind.JAXB;
 import java.io.File;
@@ -41,7 +41,7 @@ public class DataStorageTest {
         ingredients.add(new Ingredient(200,"käse","gr"));
         ingredients.add(new Ingredient(1,"Salat","stk"));
 
-        recipe = new Recipe(2,"Nachosalat","mh lecker","alles in ne schüssel", ingredients, 40, 0);
+        recipe = new Recipe(2,"Nachoosalat","mh lecker","alles in ne schüssel", ingredients, 40, 0);
 
         storage.addRecipe(recipe);
 

@@ -1,6 +1,6 @@
 package org.xardas.db;
 
-import org.xardas.recepts.Recipe;
+import org.xardas.recipes.Recipe;
 
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;

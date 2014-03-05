@@ -2,13 +2,12 @@ package org.xardas.recepts;
 
 import org.junit.Test;
 import org.xardas.db.DataStorage;
+import org.xardas.recipes.Ingredient;
+import org.xardas.recipes.Recipe;
 
 import javax.xml.bind.JAXB;
-import javax.xml.bind.util.JAXBResult;
-import javax.xml.transform.Result;
-import java.io.File;
+import java.io.StringReader;
 import java.io.StringWriter;
-import java.io.Writer;
 import java.util.ArrayList;
 
 /**
@@ -30,10 +29,14 @@ public class RecipeTest {
         DataStorage t = new DataStorage();
         t.addRecipe(recipe);
 
-        StringWriter writer = new StringWriter();
-        JAXB.marshal(recipe, writer);
+        StringWriter sw = new StringWriter();
+        JAXB.marshal(recipe, sw);
 
-        System.out.println(writer.toString());
+
+        StringReader reader = new StringReader(sw.toString());
+        Recipe recipe1 = JAXB.unmarshal(reader,Recipe.class);
+
+        System.out.println(recipe1.getName());
 
     }
 }

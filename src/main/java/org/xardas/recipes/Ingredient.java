@@ -1,4 +1,4 @@
-package org.xardas.recepts;
+package org.xardas.recipes;
 
 import javax.xml.bind.annotation.XmlType;
 
